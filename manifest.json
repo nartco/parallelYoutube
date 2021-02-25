@@ -8,9 +8,7 @@
     "storage",
     "tabs",
     "activeTab",
-    "webNavigation",
-    "https://ajax.googleapis.com/"
-
+    "webNavigation"
   ],
 
   "icons": {
@@ -22,6 +20,5 @@
   "background": {
     "scripts": ["./background.js"],
     "persistent": true
-  },
-  "persistent": true
+  }
 }
