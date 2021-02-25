@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Parallel Youtube",
+  "description": "A new way to watch youtube without influence.",
+  "version": "1.0",
+  "permissions": [
+    "*://www.youtube.com/*",
+    "storage",
+    "tabs",
+    "activeTab",
+    "webNavigation",
+    "https://ajax.googleapis.com/"
+
+  ],
+
+  "icons": {
+    "128": "./img/128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["./background.js"],
+    "persistent": true
+  },
+  "persistent": true
+}
