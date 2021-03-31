@@ -1,15 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Parallel Youtube",
-  "description": "A new way to watch youtube without influence.",
+  "name": "Coopcycle print organizer",
+  "description": "print organizer for tickets on coopcyle",
   "version": "1.0",
-  "permissions": [
-    "*://www.youtube.com/*",
-    "storage",
-    "tabs",
-    "activeTab",
-    "webNavigation"
-  ],
+  "permissions": ["*://*.coopcycle.org/*", "tabs", "activeTab"],
+  "web_accessible_resources": ["content.js"],
 
   "icons": {
     "128": "./img/128.png"
